@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECTS</title>
+    <link rel="stylesheet" href="projects-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="hamburger">
+            &#9776; <!-- Unicode character for a hamburger menu -->
+        </div>
+        <div class="close">
+            &times; <!-- Close Icon (X) -->
+        </div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="projects.html" class="active">PROJECTS</a></li>
+            <li><a href="quizzes.html">QUIZZES</a></li>
+        </ul>
+    </nav>
+    <section class="features" id="projects">
+        <div class="features-header fade-in">
+            <h2>PROJECT'<span>S</span></h2>
+        </div>    
+        <div class="features-tabs fade-in">
+            <div class="tab active" onclick="showFeature('web')">
+                <i class="fas fa-mobile-screen"></i>
+            </div>
+            <div class="tab" onclick="showFeature('app')">
+                <i class="fas fa-laptop"></i>
+            </div>
+            <div class="tab" onclick="showFeature('code')">
+                <i class="fas fa-desktop"></i>
+            </div>
+        </div>
+        
+        <div class="features-content">
+            <div id="web" class="feature-item active">
+                <div class="feature-text fade-in">
+                    <h3>ITEC WORDS DICTIONARY APP</h3>
+                    <p>This is the project in our subject ITEC-60. It is a dictionary with the words that we use in the subject ITEC-60.</p>
+                </div>
+                <button class="launch-btn fade-in" data-images='["/images/project1/cover.jpg", "/images/project1/1.jpg", "images/project1/2.jpg", "images/project1/3.jpg", "images/project1/4.jpg", "images/project1/5.jpg"]'>
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="currentColor"></path>
+                    </svg>
+                    <span>See Project</span>
+                </button>
+                <div class="feature-image fade-in">
+                    <img src="images/project1/cover.jpg" alt="Web Design" />
+                </div>
+            </div>
+            <div id="app" class="feature-item">
+                <div class="feature-text fade-in">
+                    <h3>MCU Fandom Website</h3>
+                    <p>This is an by pair activity on our subject ITEC-101. This is Fandom Webpage with integration of PHP and MySQL.</p>
+                </div>
+                <button class="launch-btn" data-images='["/images/project2/cover.png", "/images/project2/1.png", "images/project2/2.png", "images/project2/3.png", "images/project2/4.png", "images/project2/5.png", "images/project2/6.png"]'>
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="currentColor"></path>
+                    </svg>
+                    <span>See Project</span>
+                </button>
+                <div class="feature-image fade-in">
+                    <img src="images/project2/cover.png" alt="App Development" />
+                </div>
+            </div>
+            <div id="code" class="feature-item">
+                <div class="feature-text fade-in">
+                    <h3>Wedding Management System</h3>
+                    <p>This is our group project in DCIT-24. This is created in Visual Studio 2019.</p>
+                </div>
+                <button class="launch-btn" data-images='["/images/project3/cover.png", "images/project3/2.png", "images/project3/3.png", "images/project3/4.png", "images/project3/5.png", "images/project3/6.png", "images/project3/7.png", "images/project3/8.png", "images/project3/9.png", "images/project3/10.png"]'>
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="currentColor"></path>
+                    </svg>
+                    <span>See Project</span>
+                </button>
+                <div class="feature-image fade-in">
+                    <img src="images/project3/cover.png" alt="Code Implementation" />
+                </div>
+            </div>
+        </div>  
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-about fade-in">
+            <h3>About Me</h3>
+            <p>I'm Jeams Kenneth Y. Lorilla, a passionate student from Cavite State University, Silang Campus. Welcome to my portfolio!</p>
+          </div>
+      
+          <div class="footer-links fade-in">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="quizzes.html">Quizzes</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-contact fade-in">
+            <h3>Contact</h3>
+            <p>Email: jeamsred23@gmail.com</p>
+            <p>Phone: +63 976 453 4680</p>
+            <div class="fsocial-icons">
+              <a href="https://www.facebook.com/jeamsred19"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://x.com/picred19"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://www.instagram.com/seanblu_9"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom fade-in">
+          <p>&copy; 2025 Jeams Kenneth Y. Lorilla | All Rights Reserved.</p>
+        </div>
+      </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Scroll Animation using Intersection Observer API
+document.addEventListener('DOMContentLoaded', () => {
+    const scrollElements = document.querySelectorAll('.fade-in, .slide-in');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        });
+    }, { threshold: 0.1 });
+    
+    scrollElements.forEach(element => observer.observe(element));
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+            const launchButtons = document.querySelectorAll('.launch-btn');
+
+            launchButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const images = JSON.parse(button.getAttribute('data-images'));
+                    openSlider(images);
+                });
+            });
+
+            function openSlider(images) {
+                const sliderContainer = document.createElement('div');
+                sliderContainer.classList.add('slider-container');
+
+                sliderContainer.innerHTML = `
+                    <div class="slider-overlay">
+                        <span class="close-btn">&times;</span>
+                        <div class="slider-wrapper">
+                            ${images.map(src => `<img src="${src}" class="slider-img" />`).join('')}
+                        </div>
+                        <button class="prev-btn">&#10094;</button>
+                        <button class="next-btn">&#10095;</button>
+                    </div>
+                `;
+
+                document.body.appendChild(sliderContainer);
+
+                let currentIndex = 0;
+                const sliderImages = sliderContainer.querySelectorAll('.slider-img');
+                const totalImages = sliderImages.length;
+                sliderImages[currentIndex].style.display = 'block';
+
+                const showImage = (index) => {
+                    sliderImages.forEach(img => img.style.display = 'none');
+                    sliderImages[index].style.display = 'block';
+                };
+
+                sliderContainer.querySelector('.next-btn').addEventListener('click', () => {
+                    currentIndex = (currentIndex + 1) % totalImages;
+                    showImage(currentIndex);
+                });
+
+                sliderContainer.querySelector('.prev-btn').addEventListener('click', () => {
+                    currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+                    showImage(currentIndex);
+                });
+
+                sliderContainer.querySelector('.close-btn').addEventListener('click', () => {
+                    sliderContainer.remove();
+                });
+            }
+        });
+
+const hamburger = document.querySelector('.hamburger');
+const closeBtn = document.querySelector('.close');
+const navLinks = document.querySelector('.navbar ul');
+
+// Open the menu
+hamburger.addEventListener('click', () => {
+    navLinks.classList.add('active');
+    hamburger.style.display = 'none';
+    closeBtn.style.display = 'block';
+});
+
+// Close the menu
+closeBtn.addEventListener('click', () => {
+    navLinks.classList.remove('active');
+    hamburger.style.display = 'block';
+    closeBtn.style.display = 'none';
+});
+
+// Function to adjust visibility of hamburger and close button based on screen width
+function adjustHamburgerVisibility() {
+    if (window.innerWidth <= 768) {
+        hamburger.style.display = 'block'; // Show hamburger on small screens
+        closeBtn.style.display = 'none';  // Hide close button by default
+        navLinks.classList.remove('active'); // Close the menu
+    } else {
+        hamburger.style.display = 'none'; // Hide hamburger on larger screens
+        closeBtn.style.display = 'none';  // Hide close button on larger screens
+        navLinks.classList.remove('active'); // Close the menu
+    }
+}
+
+// Listen for screen resize events
+window.addEventListener('resize', adjustHamburgerVisibility);
+
+// Initial check on page load
+adjustHamburgerVisibility();
+    </script>
+</body>
+</html>

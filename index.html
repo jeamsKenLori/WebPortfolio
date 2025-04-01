@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="hero">
+        <nav class="navbar">
+            <div class="logo">
+              <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="hamburger">
+              &#9776; <!-- Unicode character for a hamburger menu -->
+            </div>
+            <div class="close">
+              &times; <!-- Close Icon (X) -->
+          </div>
+            <ul>
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="quizzes.html">QUIZZES</a></li>
+            </ul>
+        </nav>
+
+        <div class="slider fade-in">
+            <div class="slides">
+                <div class="slide active">
+                    <h1>HELLO WORLD,<br>I AM <span>JEAMS KENNETH Y. LORILLA</span><br>FROM PHILIPPINES</h1>
+                </div>
+                <div class="slide">
+                    <h1>WELCOME TO MY PORTFOLIO,<br>I AM A <span>STUDENT</span><br>IN CAVITE STATE UNIVERSITY <br>SILANG CAMPUS</h1>
+                </div>
+            </div>
+
+            <button class="arrow left">&#10094;</button>
+            <button class="arrow right">&#10095;</button>
+            
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+
+    <section class="skills fade-in">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+          <!-- Coding Skills -->
+          <div class="skills-category-box coding-box">
+            <div class="skills-category">
+              <h3>Coding Skills</h3>
+              <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress-bar"><div class="progress" style="width: 40%">40%</div></div>
+              </div>
+              <div class="skill">
+                <p>PHP</p>
+                <div class="progress-bar"><div class="progress" style="width: 60%">60%</div></div>
+              </div>
+              <div class="skill">
+                <p>HTML + CSS</p>
+                <div class="progress-bar"><div class="progress" style="width: 90%">90%</div></div>
+              </div>
+              <div class="skill">
+                <p>C#</p>
+                <div class="progress-bar"><div class="progress" style="width: 40%">40%</div></div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Design Skills -->
+          <div class="skills-category-box design-box">
+            <div class="skills-category">
+              <h3>Design Skills</h3>
+              <div class="skill">
+                <p>UI / UX Design</p>
+                <div class="progress-bar"><div class="progress" style="width: 75%">75%</div></div>
+              </div>
+              <div class="skill">
+                <p>Web Design</p>
+                <div class="progress-bar"><div class="progress" style="width: 85%">85%</div></div>
+              </div>
+              <div class="skill">
+                <p>Logo Design</p>
+                <div class="progress-bar"><div class="progress" style="width: 70%">70%</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="best-work">
+        <div class="best-work-container">
+          <div class="best-work-content slide-in">
+            <h2>MY BEST WORK</h2>
+            <p>Here is the Showcase of the best work I've done so far.</p>
+          </div>
+      
+          <div class="best-work-image slide-in">
+            <img src="/images/best-work.png" alt="Person on Bench in Nature">
+            <button class="button">
+              <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+                <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path>
+              </svg>
+              Explore
+            </button>
+          </div>
+        </div>
+      </section>
+      
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-about fade-in">
+            <h3>About Me</h3>
+            <p>I'm Jeams Kenneth Y. Lorilla, a passionate student from Cavite State University, Silang Campus. Welcome to my portfolio!</p>
+          </div>
+      
+          <div class="footer-links fade-in">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="quizzes.html">Quizzes</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-contact fade-in">
+            <h3>Contact</h3>
+            <p>Email: jeamskenneth@example.com</p>
+            <p>Phone: +63 912 345 6789</p>
+            <div class="fsocial-icons">
+              <a href="https://www.facebook.com/jeamsred19"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://x.com/picred19"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://www.instagram.com/seanblu_9"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom fade-in">
+          <p>&copy; 2025 Jeams Kenneth Y. Lorilla | All Rights Reserved.</p>
+        </div>
+      </footer>
+
+    <script>
+        const exploreButton = document.querySelector('.button');
+const body = document.querySelector('body');
+
+exploreButton.addEventListener('click', () => {
+  const sliderOverlay = document.createElement('div');
+  sliderOverlay.classList.add('slider-overlay');
+  sliderOverlay.innerHTML = `
+    <div class="slider-container">
+      <button class="close-btn">&times;</button>
+      <div class="slider-images">
+        <img src="images/best-work/bw1.png" class="active" alt="Image 1">
+        <img src="images/best-work/bw2.png" alt="Image 2">
+        <img src="images/best-work/bw3.png" alt="Image 3">
+        <img src="images/best-work/bw4.png" alt="Image 4">
+        <img src="images/best-work/bw5.png" alt="Image 5">
+        <img src="images/best-work/bw6.png" alt="Image 6">
+        <img src="images/best-work/bw7.png" alt="Image 7">
+        <img src="images/best-work/bw8.png" alt="Image 8">
+        <img src="images/best-work/bw9.png" alt="Image 9">
+        <img src="images/best-work/bw10.png" alt="Image 10">
+        <img src="images/best-work/bw11.png" alt="Image 11">
+        <img src="images/best-work/bw12.png" alt="Image 12">
+        <img src="images/best-work/bw13.png" alt="Image 13">
+        <img src="images/best-work/bw14.png" alt="Image 14">
+        <img src="images/best-work/bw15.png" alt="Image 15">
+        <img src="images/best-work/bw16.png" alt="Image 16">
+        <img src="images/best-work/bw17.png" alt="Image 17">
+        <img src="images/best-work/bw18.png" alt="Image 18">
+        <img src="images/best-work/bw19.png" alt="Image 19">
+        <img src="images/best-work/bw20.png" alt="Image 20">
+        <img src="images/best-work/bw21.png" alt="Image 21">
+        <img src="images/best-work/bw22.png" alt="Image 22">
+        <img src="images/best-work/bw23.png" alt="Image 23">
+        <img src="images/best-work/bw24.png" alt="Image 24">
+      </div>
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+  `;
+  body.appendChild(sliderOverlay);
+
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.slider-images img');
+
+  function showSlide(index) {
+    slides.forEach(slide => slide.classList.remove('active'));
+    slides[index].classList.add('active');
+  }
+
+  document.querySelector('.next').addEventListener('click', () => {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  });
+
+  document.querySelector('.prev').addEventListener('click', () => {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+  });
+
+  document.querySelector('.close-btn').addEventListener('click', () => {
+    sliderOverlay.remove();
+  });
+
+});
+
+const slides = document.querySelectorAll('.slide');
+const dots = document.querySelectorAll('.dot');
+const leftArrow = document.querySelector('.arrow.left');
+const rightArrow = document.querySelector('.arrow.right');
+
+let currentIndex = 0;
+let previousIndex = 0;
+
+function showSlide(index) {
+    slides[previousIndex].classList.remove('active');
+    slides[previousIndex].classList.add('slide-exit');
+    dots[previousIndex].classList.remove('active');
+
+    slides[index].classList.remove('slide-exit');
+    slides[index].classList.add('active');
+    dots[index].classList.add('active');
+
+    previousIndex = index;
+}
+
+leftArrow.addEventListener('click', () => {
+    currentIndex = (currentIndex === 0) ? slides.length - 1 : currentIndex - 1;
+    showSlide(currentIndex);
+});
+
+rightArrow.addEventListener('click', () => {
+    currentIndex = (currentIndex === slides.length - 1) ? 0 : currentIndex + 1;
+    showSlide(currentIndex);
+});
+
+dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+        currentIndex = index;
+        showSlide(currentIndex);
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Set the initial active tab and content on load
+    const initialTab = document.querySelector('.tab');
+    initialTab.classList.add('active');
+    
+    const initialContent = document.getElementById('web');
+    initialContent.classList.add('active');
+    initialContent.classList.add('fade-in'); // Add fade-in animation to initial content
+});
+
+function showFeature(feature) {
+    const tabs = document.querySelectorAll('.tab');
+    const items = document.querySelectorAll('.feature-item');
+    
+    // Remove active class from all tabs
+    tabs.forEach(tab => tab.classList.remove('active'));
+
+    // Add active class to the clicked tab
+    event.currentTarget.classList.add('active');
+
+    // Loop through all items and add fade-out animation before hiding them
+    items.forEach(item => {
+        if (item.classList.contains('active')) {
+            item.classList.remove('active', 'fade-in');
+            item.classList.add('fade-out');
+            setTimeout(() => item.classList.remove('fade-out'), 600); // Remove fade-out class after animation completes
+        }
+    });
+
+    // Show the selected feature item with fade-in animation
+    const selectedFeature = document.getElementById(feature);
+    if (selectedFeature) {
+        selectedFeature.classList.add('active', 'fade-in');
+    }
+}
+
+// Scroll Animation using Intersection Observer API
+document.addEventListener('DOMContentLoaded', () => {
+    const scrollElements = document.querySelectorAll('.fade-in, .slide-in');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        });
+    }, { threshold: 0.1 });
+    
+    scrollElements.forEach(element => observer.observe(element));
+});
+
+const hamburger = document.querySelector('.hamburger');
+const closeBtn = document.querySelector('.close');
+const navLinks = document.querySelector('.navbar ul');
+
+// Open the menu
+hamburger.addEventListener('click', () => {
+    navLinks.classList.add('active');
+    hamburger.style.display = 'none';
+    closeBtn.style.display = 'block';
+});
+
+// Close the menu
+closeBtn.addEventListener('click', () => {
+    navLinks.classList.remove('active');
+    hamburger.style.display = 'block';
+    closeBtn.style.display = 'none';
+});
+
+// Function to adjust visibility of hamburger and close button based on screen width
+function adjustHamburgerVisibility() {
+    if (window.innerWidth <= 768) {
+        hamburger.style.display = 'block'; // Show hamburger on small screens
+        closeBtn.style.display = 'none';  // Hide close button by default
+        navLinks.classList.remove('active'); // Close the menu
+    } else {
+        hamburger.style.display = 'none'; // Hide hamburger on larger screens
+        closeBtn.style.display = 'none';  // Hide close button on larger screens
+        navLinks.classList.remove('active'); // Close the menu
+    }
+}
+
+// Listen for screen resize events
+window.addEventListener('resize', adjustHamburgerVisibility);
+
+// Initial check on page load
+adjustHamburgerVisibility();
+
+
+    </script>
+</body>
+</html>
